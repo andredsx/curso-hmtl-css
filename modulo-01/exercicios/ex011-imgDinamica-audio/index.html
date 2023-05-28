@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Mídia em html5</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminui a o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-media.png" type="image/png">
+        <img src="img/img-grande.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir Áudio em HTML5.</p>
+    <!--essa tag:audio src="nome do audio" controls autoplay></audio> e a forma mais simples de audio no site.-->
+     <!--formatos de mp3 aceitos nos navegadores são MP3(mpeg),WAV,OGG.-->
+    <!--essa tag: <audio preload="metadata" autoplay controls>
+        <source src="midia/Ruthless-NEFFEX.mp3" type="audio/mpeg"> e a melhor forma de colocar audio site.-->
+     <audio preload="metadata" controls>
+        <source src="midia/Ruthless-NEFFEX.mp3" type="audio/mpeg">
+     </audio>
+</body>
+</html>

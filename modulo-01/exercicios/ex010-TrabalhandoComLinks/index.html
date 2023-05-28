@@ -1,0 +1,32 @@
+<!DOCTYPE html
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>trabalhando com links</title>
+</head>
+<body>   
+    <h1> usando links externos</h1>
+    
+    <p> Você pode acessar o <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">repositório público no Github</a>.</p> 
+    <!--para o site do link abrir em uma nova aba use essa tag: target="_blank" rel="external" no final do link!-->
+    <p>Você também pode acessar o <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY"target="_blank" rel="external" >canal no YouTube</a></p>
+    
+    <h1>Usando links internos </h1>
+    
+    <p>A segunda página está aqui. Se você quiser, pode acessar a <a href="pagina02.html" rel="next">segunda página</a></p>
+    <!--usando esse parâmetro: rel="next" ou rel="prev" voce pode ir para proxima pag ou retornar a anterior-->
+    <!--a tag: "a" de acesso para usar links internos ou externos!-->
+    <!--a tag: target="_blank" rel="nofollow" é para quando nao quer o aval desse link!-->
+    <p>Você também pode acessar a <a href="noticias/pag003.html">pagina de noticia!</a></p>
+    <!--use a tag: a href="../link usado" para volta uma pasta e ir para a pagina inicial!-->
+    
+    <h1>Links para Download</h1>
+    <ul><!--a tag: ul>li*4>a cria uma lista para links! no numero 4 coloque a quantidade que deseja da lista.-->
+        <li><a href="ebook/God of War 01 - Robert E. Vardeman.pdf" download="ebook/God of War 01 - Robert E. Vardeman.pdf" type="application/pdf">Baixar o livro em pdf</a></li>
+        <li><a href="ebook/God of War 01 - Robert E. Vardeman.rar" download="ebook/God of War 01 - Robert E. Vardeman.rar" type="application/rar">livro compactado em winrar</a></li>
+    </ul>
+
+</body>
+</html>
